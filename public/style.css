@@ -1,0 +1,255 @@
+body {
+    background-color: rgb(228, 228, 228);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+/* -----HEADER----- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: navy;
+    padding: 0.5rem;
+    width: 80vw;
+}
+
+.headerText {
+    padding: 1rem 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.headerText:hover {
+    color: grey;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    padding: 1rem 2rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+#logoutButton {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#logoutButton:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+/* -----LOGIN/REGISTER----- */
+
+.loginRegister{
+    border: 2px solid navy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logRegForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logRegForm * {
+    padding: 0.5rem;
+    margin: 0.2rem;
+}
+
+.logRegForm label {
+    font-size: 1.1rem;
+}
+
+.logRegForm a {
+    color: navy;
+}
+
+.logRegForm button {
+    font-size: 1.1rem;
+}
+
+/* -----PROFILE----- */
+
+#profile {
+    display: flex;
+    flex-direction: column;
+}
+
+#profileHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile h2 {
+    margin-bottom: 0;
+}
+
+#profile h3 {
+    display: block;
+    background-color: navy;
+    color: white;
+    padding: 0.5rem;
+}
+
+.deleted {
+    color: grey;
+}
+
+.message {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+}
+
+/* -----ALL POSTS ----- */
+
+#allPosts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#allPostsNav {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    align-items: center;
+    border: solid 2px navy;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+}
+
+.post {
+    border: solid 2px navy;
+    width: 60vw;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+}
+
+.accent {
+    color: navy;
+}
+
+.viewButton {
+    background-color: navy;
+    color: white;
+}
+
+/* -----SINGLE POST----- */
+
+.singlePost {
+    border: 2px solid navy;
+    padding: 1rem;
+}
+
+.singlePost h3 {
+    font-size: 1.5rem;
+}
+
+.singlePost p {
+    font-size: 1.2rem;
+}
+
+.editDeleteButtons * {
+    margin-right: 0.3rem;
+}
+
+.deleteButton {
+    background-color: navy;
+    color: white;
+}
+
+.singlePost form {
+    display: flex;
+    flex-direction: column;
+}
+
+.singlePost textarea {
+    margin-bottom: 0.5rem;
+    height: 10vh;
+    width: 30vh;
+}
+
+.singlePost form button {
+    width: 300px;
+}
+
+/* -----CREATE POST----- */
+
+#createPost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#createPost * {
+    margin: 0.5rem;
+}
+
+#createPost form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formText {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 50vw;
+    font-weight: 550;
+    font-size: 1.1rem;
+}
+
+/* -----EDIT POST----- */
+
+#editPost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+form label {
+    color: navy;
+}
+
+.formText input {
+    padding: 0.5rem;
+}
+
+.formText textarea {
+    height: 20vw;
+}
+
+form button {
+    margin-top: 1rem;
+}
+
+
+
+
+
+
